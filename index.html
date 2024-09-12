@@ -28,14 +28,22 @@
                 left: 0;
                 right: 0;
                 bottom: 0;
-                background-color: rgba(255, 255, 255, 0.7); /* Adjust the last value (0.5) to change opacity */
+                background: linear-gradient(to right, 
+                        rgba(255, 0, 0, 0.8),   /* Red */
+                        rgba(255, 127, 0, 0.8), /* Orange */
+                        rgba(255, 255, 0, 0.8), /* Yellow */
+                        rgba(0, 255, 0, 0.8),   /* Green */
+                        rgba(0, 0, 255, 0.8),   /* Blue */
+                        rgba(75, 0, 130, 0.8),  /* Indigo */
+                        rgba(143, 0, 255, 0.8)  /* Violet */
+                );
                 z-index: -1;
             }
         }
 
         header {
-            background: rgba(31, 31, 46, 0.7);
-            color: #fff;
+            background: rgba(127, 127, 127, 0.7);
+            color: #222;
             text-align: center;
         }
 
@@ -50,7 +58,7 @@
         }
 
         header p {
-            margin: 1em;
+            margin: 2em;
             font-size: 1.2em;
         }
 
@@ -62,7 +70,7 @@
     <header style="display: flex; flex-direction: column; justify-content: center; min-height: 100vh;">
         <h1>EDVANCIUM</h1>
         <h2>Revolutionizing the Way You Learn</h2>
-        <p>Edvancium is your go-to AI-powered learning experience that drives success</p>
+        <p>Edvancium is your go-to AI-powered learning experience that drives curiosity and empowerment</p>
     </header>
 
 </body>
