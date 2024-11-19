@@ -1,6 +1,6 @@
 This is a static website for https://edvancium.com
 
-Mirrored from http://edvancium.cardd.co
+Mirrored from https://edvancium.carrd.co
 
 # Usage:
 

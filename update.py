@@ -17,6 +17,7 @@ def download_website(url, output_dir):
 
     # Download main page
     response = requests.get(url)
+    response.encoding = "utf-8"
     soup = BeautifulSoup(response.text, "html.parser")
 
     # Save main HTML
