@@ -11,6 +11,6 @@ virtualenv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python upodate.py
-git commit -a "site update"
+git commit -a -m "site update"
 git push
 ```
